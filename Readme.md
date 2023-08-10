@@ -31,7 +31,3 @@ As the test label is not well-established yet, we are stilling finding way to ev
 
 Besides, I notice SciSpacy has its pre-train biobert models to be downloaded as well, which will be more useful in our context. But we need to download spacy.load("en_core_sci_scibert")  and train/predict with large clusters, which will be practical from my experiences.
 
-
-###5.	Will the project be orchestrated into a publication or a report?
-The pipline we have developed is aiming for the BioModels annotation, thus it has a great match of the design of the BioModels API. If we want to explore the usage of this pipline in other platform, we can rewrite the code to accommodate the need. For the publication consideration, as there is no much theory innovation, the author prefers to publish as a report or guidance to do the automatic annotation. 
-
