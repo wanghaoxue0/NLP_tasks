@@ -35,11 +35,3 @@ Besides, I notice SciSpacy has its pre-train biobert models to be downloaded as 
 ###5.	Will the project be orchestrated into a publication or a report?
 The pipline we have developed is aiming for the BioModels annotation, thus it has a great match of the design of the BioModels API. If we want to explore the usage of this pipline in other platform, we can rewrite the code to accommodate the need. For the publication consideration, as there is no much theory innovation, the author prefers to publish as a report or guidance to do the automatic annotation. 
 
-###6.	What are problems so far on Maaly’s biobert based model?
-I have been working on Maaly’s biobert models in the first few works. Generally speaking, the pipline is clear but there are some problems with application to Biomodels. Here are some problems I found so far:
-•	The pretrained models mentioned in the text can not be downloaded from EBI website due to the large size. Running the .sh file will return an error(can’t not find the zip files). One solution is to contact the authors and they will send you by Google drive or email.
-•	Another prominent problem is the maintainence of BioBerts, which has not been done in two years. The python and TensorFlow version is so old, which can only be solved by installing virtual environments(still not working for MacBook M2 chips). The GPU clusters in EBI is the with the latest 11.8, however TensorFlow ==1.15 designed for 10.5.
-•	The 16 categories are too limited when we want to have more annotations beyond the 16 models. After using the pretrained model, we hope to find more terms that have been appeared in the texts.
-•	The expected json file can’t be generated in the output. One possible explanation is that the usage of EBI search API, which needs to be updated with the latest version. I use the same strategy to generate the oncology using  EBI search API and it works in the end.
-•	In the end, I hope there is a solution to train the model and produce the result without going through the 16 categories procedure, which is unnecessary for some researches.
-•	Overall, I appreciate the works and look forwards to further updates.
