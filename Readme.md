@@ -8,7 +8,7 @@ By combining with the latest biomedical text processing techniques, I develop a 
 3. transfer the output into a readable .csv file, which can be compared with ground-true labels if available
 
 The corresponding codes and annotation can be found in automatic_annotation.ipynb
-<img width="400" alt="image" src="https://github.com/wanghaoxue0/NLP_tasks/data_scientist.png">
+<img width="400" alt="image" src="https://github.com/wanghaoxue0/NLP_tasks/blob/main/data_scientist.png)">
 
 The advantages of our pipeline can be summarised in three aspects:
 1.	Our pipeline is based on frequently maintained algorithms, which means there will be fewer system errors than other models.
